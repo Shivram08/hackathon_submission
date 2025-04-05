@@ -1,6 +1,1 @@
-browser.runtime.onMessage.addListener((request, sender, sendResponse) => {
-    console.log("Received request: ", request);
-
-    if (request.greeting === "hello")
-        return Promise.resolve({ farewell: "goodbye" });
-});
+chrome.runtime.onInstalled.addListener((()=>{console.log("Bitcoin Donation Extension installed"),chrome.storage.local.set({useTestnet:!0})})),chrome.runtime.onMessage.addListener(((e,n,o)=>{if("getInfo"===e.action)return o({success:!0}),!0}));
