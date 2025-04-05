@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bitcoin Donation</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 15px; width: 300px; }
+    #qrcode { margin: 15px 0; }
+    .tx { font-size: 12px; margin-bottom: 10px; border-bottom: 1px solid #ccc; padding-bottom: 5px; }
+  </style>
+</head>
+<body>
+  <h3>Bitcoin Donation Address</h3>
+  <p id="address">Loading...</p>
+  <div id="qrcode"></div>
+  <button id="generate">Generate New Address</button>
+
+  <h4>Wallet Balance</h4>
+  <p id="balance">Loading...</p>
+
+  <h4>Recent Transactions</h4>
+  <div id="transactions">Loading...</div>
+
+  <script src="qrcode.min.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
