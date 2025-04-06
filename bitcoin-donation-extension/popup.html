@@ -3,9 +3,144 @@
 <head>
   <title>Bitcoin Donation</title>
   <style>
-    body { font-family: Arial, sans-serif; padding: 15px; width: 300px; }
-    #qrcode { margin: 15px 0; }
-    .tx { font-size: 12px; margin-bottom: 10px; border-bottom: 1px solid #ccc; padding-bottom: 5px; }
+    :root {
+      --primary-color: #f7931a;  /* Bitcoin orange */
+      --secondary-color: #4c4c4c;
+      --accent-color: #1a73e8;
+      --success-color: #34c759;
+      --bg-gradient: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+    }
+
+    body { 
+      font-family: 'Segoe UI', Arial, sans-serif; 
+      padding: 20px; 
+      width: 320px;
+      max-height: 500px;
+      overflow-y: auto;
+      background: var(--bg-gradient);
+      margin: 0;
+      box-shadow: 0 0 20px rgba(0,0,0,0.05) inset;
+    }
+
+    #qrcode { 
+      margin: 20px 0;
+      text-align: center;
+      padding: 15px;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      transition: transform 0.2s ease;
+    }
+
+    #qrcode:hover {
+      transform: scale(1.02);
+    }
+
+    .tx { 
+      font-size: 13px; 
+      margin-bottom: 12px; 
+      border: 1px solid rgba(247, 147, 26, 0.2);
+      padding: 12px;
+      background-color: white;
+      border-radius: 8px;
+      word-break: break-all;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+      transition: all 0.2s ease;
+    }
+
+    .tx:hover {
+      border-color: var(--primary-color);
+      transform: translateX(2px);
+    }
+
+    #transactions {
+      max-height: 200px;
+      overflow-y: auto;
+      padding-right: 8px;
+      margin-top: 10px;
+    }
+
+    /* Custom scrollbar styling */
+    ::-webkit-scrollbar {
+      width: 6px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: rgba(247, 147, 26, 0.1);
+      border-radius: 4px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: var(--primary-color);
+      border-radius: 4px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: #e58215;
+    }
+
+    button {
+      background: var(--primary-color);
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      border-radius: 8px;
+      cursor: pointer;
+      width: 100%;
+      margin: 10px 0;
+      font-weight: 600;
+      transition: all 0.2s ease;
+      box-shadow: 0 2px 4px rgba(247, 147, 26, 0.2);
+    }
+
+    button:hover {
+      background-color: #e58215;
+      transform: translateY(-1px);
+      box-shadow: 0 4px 8px rgba(247, 147, 26, 0.3);
+    }
+
+    button:active {
+      transform: translateY(1px);
+    }
+
+    h3, h4 {
+      color: var(--secondary-color);
+      margin-bottom: 12px;
+      font-weight: 600;
+      position: relative;
+    }
+
+    h3::after, h4::after {
+      content: '';
+      display: block;
+      width: 40px;
+      height: 3px;
+      background: var(--primary-color);
+      margin-top: 8px;
+      border-radius: 2px;
+    }
+
+    #address, #balance {
+      background: white;
+      padding: 10px;
+      border-radius: 6px;
+      border: 1px solid rgba(247, 147, 26, 0.2);
+      transition: all 0.2s ease;
+    }
+
+    #address:hover, #balance:hover {
+      border-color: var(--primary-color);
+    }
+
+    .loading {
+      animation: pulse 1.5s infinite;
+    }
+
+    @keyframes pulse {
+      0% { opacity: 1; }
+      50% { opacity: 0.5; }
+      100% { opacity: 1; }
+    }
   </style>
 </head>
 <body>
