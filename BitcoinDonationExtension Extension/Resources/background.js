@@ -1,0 +1,1 @@
+chrome.runtime.onInstalled.addListener((()=>{console.log("Bitcoin Donation Extension installed"),chrome.storage.local.set({useTestnet:!0})})),chrome.runtime.onMessage.addListener(((e,n,o)=>{if("getInfo"===e.action)return o({success:!0}),!0}));

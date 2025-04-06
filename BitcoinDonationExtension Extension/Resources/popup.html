@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Bitcoin Donation Address Generator</title>
+  <link rel="stylesheet" href="popup.css">
+  <!-- No external library dependencies needed -->
+</head>
+<body>
+  <div class="container">
+    <h1>Bitcoin Donation Address</h1>
+    <div class="network-toggle">
+      <label>
+        <input type="checkbox" id="network-toggle" checked> Use Testnet
+      </label>
+    </div>
+    <div class="address-container">
+      <div id="qrcode-container" class="qrcode"></div>
+      <div id="address-text" class="address"></div>
+    </div>
+    
+    <!-- Wallet Balance Section -->
+    <div class="wallet-section">
+      <div class="balance-container">
+        <div class="balance-label">Wallet Balance:</div>
+        <div class="balance-amount" id="wallet-balance">0.00000000 BTC</div>
+      </div>
+      
+      <div class="transactions-container">
+        <h3>Recent Transactions</h3>
+        <div id="transactions-list">
+          <div class="no-transactions">No transactions yet</div>
+        </div>
+      </div>
+    </div>
+    
+    <button id="generate-btn">Generate New Address</button>
+    <button id="copy-btn">Copy Address</button>
+    <button id="refresh-btn">Refresh Balance</button>
+    <div id="status-message"></div>
+  </div>
+  <script src="popup-direct.js"></script>
+</body>
+</html> 

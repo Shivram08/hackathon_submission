@@ -1,0 +1,749 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15C34E792DA1A01F000E0283 /* BitcoinDonationExtension Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 15C34E782DA1A01F000E0283 /* BitcoinDonationExtension Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15C34E632DA1A01F000E0283 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15C34E3E2DA1A01D000E0283 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15C34E452DA1A01D000E0283;
+			remoteInfo = BitcoinDonationExtension;
+		};
+		15C34E6D2DA1A01F000E0283 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15C34E3E2DA1A01D000E0283 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15C34E452DA1A01D000E0283;
+			remoteInfo = BitcoinDonationExtension;
+		};
+		15C34E7A2DA1A01F000E0283 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15C34E3E2DA1A01D000E0283 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15C34E772DA1A01F000E0283;
+			remoteInfo = "BitcoinDonationExtension Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		15C34E982DA1A01F000E0283 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				15C34E792DA1A01F000E0283 /* BitcoinDonationExtension Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		15C34E462DA1A01D000E0283 /* BitcoinDonationExtension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitcoinDonationExtension.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15C34E622DA1A01F000E0283 /* BitcoinDonationExtensionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitcoinDonationExtensionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15C34E6C2DA1A01F000E0283 /* BitcoinDonationExtensionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitcoinDonationExtensionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15C34E782DA1A01F000E0283 /* BitcoinDonationExtension Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "BitcoinDonationExtension Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		15C34E922DA1A01F000E0283 /* Exceptions for "BitcoinDonationExtension Extension" folder in "BitcoinDonationExtension Extension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 15C34E772DA1A01F000E0283 /* BitcoinDonationExtension Extension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		15C34E482DA1A01D000E0283 /* BitcoinDonationExtension */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BitcoinDonationExtension;
+			sourceTree = "<group>";
+		};
+		15C34E652DA1A01F000E0283 /* BitcoinDonationExtensionTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BitcoinDonationExtensionTests;
+			sourceTree = "<group>";
+		};
+		15C34E6F2DA1A01F000E0283 /* BitcoinDonationExtensionUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BitcoinDonationExtensionUITests;
+			sourceTree = "<group>";
+		};
+		15C34E7C2DA1A01F000E0283 /* BitcoinDonationExtension Extension */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				15C34E922DA1A01F000E0283 /* Exceptions for "BitcoinDonationExtension Extension" folder in "BitcoinDonationExtension Extension" target */,
+			);
+			explicitFolders = (
+				Resources/_locales,
+				Resources/images,
+			);
+			path = "BitcoinDonationExtension Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15C34E432DA1A01D000E0283 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15C34E5F2DA1A01F000E0283 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15C34E692DA1A01F000E0283 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15C34E752DA1A01F000E0283 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15C34E3D2DA1A01D000E0283 = {
+			isa = PBXGroup;
+			children = (
+				15C34E482DA1A01D000E0283 /* BitcoinDonationExtension */,
+				15C34E652DA1A01F000E0283 /* BitcoinDonationExtensionTests */,
+				15C34E6F2DA1A01F000E0283 /* BitcoinDonationExtensionUITests */,
+				15C34E7C2DA1A01F000E0283 /* BitcoinDonationExtension Extension */,
+				15C34E472DA1A01D000E0283 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15C34E472DA1A01D000E0283 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15C34E462DA1A01D000E0283 /* BitcoinDonationExtension.app */,
+				15C34E622DA1A01F000E0283 /* BitcoinDonationExtensionTests.xctest */,
+				15C34E6C2DA1A01F000E0283 /* BitcoinDonationExtensionUITests.xctest */,
+				15C34E782DA1A01F000E0283 /* BitcoinDonationExtension Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15C34E452DA1A01D000E0283 /* BitcoinDonationExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15C34E992DA1A01F000E0283 /* Build configuration list for PBXNativeTarget "BitcoinDonationExtension" */;
+			buildPhases = (
+				15C34E422DA1A01D000E0283 /* Sources */,
+				15C34E432DA1A01D000E0283 /* Frameworks */,
+				15C34E442DA1A01D000E0283 /* Resources */,
+				15C34E982DA1A01F000E0283 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15C34E7B2DA1A01F000E0283 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				15C34E482DA1A01D000E0283 /* BitcoinDonationExtension */,
+			);
+			name = BitcoinDonationExtension;
+			packageProductDependencies = (
+			);
+			productName = BitcoinDonationExtension;
+			productReference = 15C34E462DA1A01D000E0283 /* BitcoinDonationExtension.app */;
+			productType = "com.apple.product-type.application";
+		};
+		15C34E612DA1A01F000E0283 /* BitcoinDonationExtensionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15C34E9C2DA1A01F000E0283 /* Build configuration list for PBXNativeTarget "BitcoinDonationExtensionTests" */;
+			buildPhases = (
+				15C34E5E2DA1A01F000E0283 /* Sources */,
+				15C34E5F2DA1A01F000E0283 /* Frameworks */,
+				15C34E602DA1A01F000E0283 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15C34E642DA1A01F000E0283 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				15C34E652DA1A01F000E0283 /* BitcoinDonationExtensionTests */,
+			);
+			name = BitcoinDonationExtensionTests;
+			packageProductDependencies = (
+			);
+			productName = BitcoinDonationExtensionTests;
+			productReference = 15C34E622DA1A01F000E0283 /* BitcoinDonationExtensionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		15C34E6B2DA1A01F000E0283 /* BitcoinDonationExtensionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15C34E9F2DA1A01F000E0283 /* Build configuration list for PBXNativeTarget "BitcoinDonationExtensionUITests" */;
+			buildPhases = (
+				15C34E682DA1A01F000E0283 /* Sources */,
+				15C34E692DA1A01F000E0283 /* Frameworks */,
+				15C34E6A2DA1A01F000E0283 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15C34E6E2DA1A01F000E0283 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				15C34E6F2DA1A01F000E0283 /* BitcoinDonationExtensionUITests */,
+			);
+			name = BitcoinDonationExtensionUITests;
+			packageProductDependencies = (
+			);
+			productName = BitcoinDonationExtensionUITests;
+			productReference = 15C34E6C2DA1A01F000E0283 /* BitcoinDonationExtensionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		15C34E772DA1A01F000E0283 /* BitcoinDonationExtension Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15C34E932DA1A01F000E0283 /* Build configuration list for PBXNativeTarget "BitcoinDonationExtension Extension" */;
+			buildPhases = (
+				15C34E742DA1A01F000E0283 /* Sources */,
+				15C34E752DA1A01F000E0283 /* Frameworks */,
+				15C34E762DA1A01F000E0283 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				15C34E7C2DA1A01F000E0283 /* BitcoinDonationExtension Extension */,
+			);
+			name = "BitcoinDonationExtension Extension";
+			packageProductDependencies = (
+			);
+			productName = "BitcoinDonationExtension Extension";
+			productReference = 15C34E782DA1A01F000E0283 /* BitcoinDonationExtension Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15C34E3E2DA1A01D000E0283 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					15C34E452DA1A01D000E0283 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					15C34E612DA1A01F000E0283 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 15C34E452DA1A01D000E0283;
+					};
+					15C34E6B2DA1A01F000E0283 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 15C34E452DA1A01D000E0283;
+					};
+					15C34E772DA1A01F000E0283 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+				};
+			};
+			buildConfigurationList = 15C34E412DA1A01D000E0283 /* Build configuration list for PBXProject "BitcoinDonationExtension" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15C34E3D2DA1A01D000E0283;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 15C34E472DA1A01D000E0283 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15C34E452DA1A01D000E0283 /* BitcoinDonationExtension */,
+				15C34E612DA1A01F000E0283 /* BitcoinDonationExtensionTests */,
+				15C34E6B2DA1A01F000E0283 /* BitcoinDonationExtensionUITests */,
+				15C34E772DA1A01F000E0283 /* BitcoinDonationExtension Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15C34E442DA1A01D000E0283 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15C34E602DA1A01F000E0283 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15C34E6A2DA1A01F000E0283 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15C34E762DA1A01F000E0283 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15C34E422DA1A01D000E0283 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15C34E5E2DA1A01F000E0283 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15C34E682DA1A01F000E0283 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15C34E742DA1A01F000E0283 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15C34E642DA1A01F000E0283 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15C34E452DA1A01D000E0283 /* BitcoinDonationExtension */;
+			targetProxy = 15C34E632DA1A01F000E0283 /* PBXContainerItemProxy */;
+		};
+		15C34E6E2DA1A01F000E0283 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15C34E452DA1A01D000E0283 /* BitcoinDonationExtension */;
+			targetProxy = 15C34E6D2DA1A01F000E0283 /* PBXContainerItemProxy */;
+		};
+		15C34E7B2DA1A01F000E0283 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15C34E772DA1A01F000E0283 /* BitcoinDonationExtension Extension */;
+			targetProxy = 15C34E7A2DA1A01F000E0283 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		15C34E942DA1A01F000E0283 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "BitcoinDonationExtension Extension/BitcoinDonationExtension_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G7T4YTGCUR;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BitcoinDonationExtension Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "BitcoinDonationExtension Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.BitcoinDonationExtension.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		15C34E952DA1A01F000E0283 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "BitcoinDonationExtension Extension/BitcoinDonationExtension_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G7T4YTGCUR;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BitcoinDonationExtension Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "BitcoinDonationExtension Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.BitcoinDonationExtension.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		15C34E962DA1A01F000E0283 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = G7T4YTGCUR;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		15C34E972DA1A01F000E0283 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = G7T4YTGCUR;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		15C34E9A2DA1A01F000E0283 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BitcoinDonationExtension/BitcoinDonationExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G7T4YTGCUR;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = BitcoinDonationExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.BitcoinDonationExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		15C34E9B2DA1A01F000E0283 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BitcoinDonationExtension/BitcoinDonationExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G7T4YTGCUR;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = BitcoinDonationExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.BitcoinDonationExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		15C34E9D2DA1A01F000E0283 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G7T4YTGCUR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.BitcoinDonationExtensionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BitcoinDonationExtension.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BitcoinDonationExtension";
+			};
+			name = Debug;
+		};
+		15C34E9E2DA1A01F000E0283 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G7T4YTGCUR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.BitcoinDonationExtensionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BitcoinDonationExtension.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BitcoinDonationExtension";
+			};
+			name = Release;
+		};
+		15C34EA02DA1A01F000E0283 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G7T4YTGCUR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.BitcoinDonationExtensionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = BitcoinDonationExtension;
+			};
+			name = Debug;
+		};
+		15C34EA12DA1A01F000E0283 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G7T4YTGCUR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.BitcoinDonationExtensionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = BitcoinDonationExtension;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15C34E412DA1A01D000E0283 /* Build configuration list for PBXProject "BitcoinDonationExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15C34E962DA1A01F000E0283 /* Debug */,
+				15C34E972DA1A01F000E0283 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15C34E932DA1A01F000E0283 /* Build configuration list for PBXNativeTarget "BitcoinDonationExtension Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15C34E942DA1A01F000E0283 /* Debug */,
+				15C34E952DA1A01F000E0283 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15C34E992DA1A01F000E0283 /* Build configuration list for PBXNativeTarget "BitcoinDonationExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15C34E9A2DA1A01F000E0283 /* Debug */,
+				15C34E9B2DA1A01F000E0283 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15C34E9C2DA1A01F000E0283 /* Build configuration list for PBXNativeTarget "BitcoinDonationExtensionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15C34E9D2DA1A01F000E0283 /* Debug */,
+				15C34E9E2DA1A01F000E0283 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15C34E9F2DA1A01F000E0283 /* Build configuration list for PBXNativeTarget "BitcoinDonationExtensionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15C34EA02DA1A01F000E0283 /* Debug */,
+				15C34EA12DA1A01F000E0283 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15C34E3E2DA1A01D000E0283 /* Project object */;
+}
