@@ -5,6 +5,7 @@ module.exports = {
   entry: {
     background: './src/background.js',
     popup: './src/popup.js',
+    'popup-direct': './src/popup-direct.js',
     content: './src/content.js'
   },
   output: {
@@ -27,7 +28,8 @@ module.exports = {
         { from: './src/popup.html', to: 'popup.html' },
         { from: './src/popup.css', to: 'popup.css' },
         { from: './src/manifest.json', to: 'manifest.json' },
-        { from: './src/images', to: 'images' }
+        { from: './src/images', to: 'images' },
+        { from: './src/lib', to: 'lib' }
       ],
     }),
   ]
